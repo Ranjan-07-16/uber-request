@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ride with Uber | Request Rides</title>
+    <link rel="stylesheet" href="uber.css">
+</head>
+<body>
+    <div class="example">
+        <p class="request-title">Request a ride now</p>
+    <input class="pickup-input" type="text" placeholder="Enter pickup location">
+    <input class="destination-input" type="text" placeholder="Enter destination">
+    <button class="request" onclick="uberrequest()">Request now</button>
+    <button class="schedule" onclick="uberschedule()">Schedule for later</button>
+    </div> 
+    <script>
+        function uberrequest()
+        {
+            alert("Ride booked!");
+            //console.log("Ride Booked!");
+        }
+        function uberschedule()
+        {
+            alert("Sorry! This option is currently available.")
+            //console.log("Sorry! This option is currently available.");
+        }
+    </script>
+</body>
+</html>
